@@ -1,0 +1,91 @@
+@media screen and(min-device-width:480px) {
+    .modal-open .modal {
+        max-height: 100vh;
+        overflow-y: hidden!important;
+    }
+}
+#bg-tree::before {    
+    content: "";
+    background-image: url('https://demo123.dev/voyancego293847/public/frontend/img/sidebar.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.20;
+}
+.pack {
+    background: hsla(30, 100%, 33%, 0.316)!important;
+}
+.card {
+    overflow: visible!important;
+}
+.pack h3 span:hover{
+    border-bottom: 4px double black;
+}
+.pack-1 {
+    border-left: 20px solid #ff9861!important;
+}
+.pack-2 {
+    border-left: 20px solid #26a69a!important;
+}
+
+.pack-3 {
+    border-left: 20px solid #109f61d5!important;
+}
+.pack-4 {
+    border-left: 20px solid #a85400c9!important;
+}
+.pack-5 {
+    border-left: 20px solid #b81a1a93!important;
+}
+
+
+.price-section .price-area{
+    height: 6.5rem;
+    width: 6.5rem;
+    border-radius: 50%;
+    padding: 2px;
+}
+.price-area-1 {
+    background: #ff9861;
+}
+.price-area-2 {
+    background-color: #26a69a!important;
+}
+.price-area-3 {
+    background: #109f61d5;
+}
+.price-area-4 {
+    background: #a85400c9;
+}
+.price-area-5 {
+    background: #b81a1a93;
+}
+
+
+.price-section .price-area .inner-area{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    color: #fff;
+    line-height: 6rem;
+    text-align: center;
+    position: relative;
+}
+
+.price-area .inner-area .text{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: -0.3rem;
+}
+
+.price-area .inner-area .price{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+
